@@ -15,6 +15,7 @@ libssl-dev
 RUN install2.r --error \ 
     -r 'http://cran.rstudio.com' \
     lubridate \
+    dplyr \
     bigrquery \
     ## install Github packages
     ## clean up
