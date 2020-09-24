@@ -14,9 +14,8 @@ libssl-dev
 ## Install packages from CRAN
 RUN install2.r --error \ 
     -r 'http://cran.rstudio.com' \
-    googleComputeEngineR \
-    deSolve \
-    Metrics \
+    lubridate \
+    bigrquery \
     ## install Github packages
     ## clean up
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds \
